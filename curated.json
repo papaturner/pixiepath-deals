@@ -1,0 +1,310 @@
+[
+  {
+    "id": "dplus-3day",
+    "cat": "tickets",
+    "hot": true,
+    "merchant": "Walt Disney World",
+    "title": "Disney+ Perks 3-Day, 3-Park Ticket",
+    "desc": "Disney+ subscribers get 3 days across 3 parks at a special rate. Select start dates.",
+    "before": 170,
+    "after": 109,
+    "unit": "/day",
+    "save": "36% OFF",
+    "url": "https://disneyworld.disney.go.com/special-offers/"
+  },
+  {
+    "id": "room-summer",
+    "cat": "hotels",
+    "hot": true,
+    "merchant": "Disney Resorts",
+    "title": "Up to 40% Off Disney Resort Hotels",
+    "desc": "Summer stays of 5+ nights. Florida Residents up to 35%, Annual Passholders up to 40%.",
+    "before": 400,
+    "after": 240,
+    "unit": "/night",
+    "save": "Up to 40% OFF",
+    "url": "https://disneyworld.disney.go.com/special-offers/"
+  },
+  {
+    "id": "dcl-35",
+    "cat": "cruises",
+    "hot": true,
+    "merchant": "Disney Cruise Line",
+    "title": "Up to 35% Off Select Sailings",
+    "desc": "Guaranteed staterooms plus a free in-room décor set on select dates.",
+    "discount": "Up to 35% OFF",
+    "url": "https://disneycruise.disney.go.com/special-offers/"
+  },
+  {
+    "id": "shopdisney-sale",
+    "cat": "merch",
+    "hot": true,
+    "merchant": "shopDisney",
+    "partner": "shopDisney",
+    "title": "shopDisney Sale — Up to 50% Off",
+    "desc": "Ears, plush, apparel, collectibles & home goods. Markdowns rotate constantly.",
+    "before": 30,
+    "after": 15,
+    "save": "Up to 50% OFF",
+    "url": "https://www.shopdisney.com/sale/"
+  },
+  {
+    "id": "military-hopper",
+    "cat": "tickets",
+    "merchant": "Disney Military Salute",
+    "title": "Military 6-Day Park Hopper — $449",
+    "desc": "Eligible U.S. service members & spouses. 6-Day Park Hopper, huge savings vs. gate.",
+    "before": 730,
+    "after": 449,
+    "save": "$281 OFF",
+    "url": "https://disneyworld.disney.go.com/special-offers/military/"
+  },
+  {
+    "id": "ut-tickets",
+    "cat": "tickets",
+    "hot": true,
+    "merchant": "Undercover Tourist",
+    "partner": "Undercover Tourist",
+    "title": "Discount Multi-Day Park Tickets",
+    "desc": "Authorized reseller pricing below the Disney gate on 2–10 day tickets.",
+    "discount": "Save up to $75",
+    "url": "https://www.undercovertourist.com/hot-deals/"
+  },
+  {
+    "id": "free-nights",
+    "cat": "hotels",
+    "merchant": "Disney Packages",
+    "title": "2 Free Nights + Free Park Days",
+    "desc": "Buy a select room & ticket package and get 2 nights plus park days free.",
+    "discount": "2 NIGHTS FREE",
+    "url": "https://disneyworld.disney.go.com/special-offers/"
+  },
+  {
+    "id": "kids-free-dining",
+    "cat": "dining",
+    "merchant": "Walt Disney World",
+    "title": "Kids Eat Free Dining",
+    "desc": "Stackable with select room & ticket offers for 2026 — a rare double discount.",
+    "discount": "KIDS EAT FREE",
+    "url": "https://disneyworld.disney.go.com/special-offers/"
+  },
+  {
+    "id": "disneyplus",
+    "cat": "streaming",
+    "hot": true,
+    "merchant": "Disney+",
+    "title": "Disney+, Hulu & ESPN Bundle",
+    "desc": "Bundle pricing beats subscribing to each service separately.",
+    "before": "$26.97",
+    "after": "$16.99",
+    "unit": "/mo",
+    "save": "Save ~37%",
+    "url": "https://www.disneyplus.com/welcome/disney-hulu-espn-bundle"
+  },
+  {
+    "id": "cirque",
+    "cat": "shows",
+    "merchant": "Cirque du Soleil",
+    "title": "Drawn to Life — Discount Tickets",
+    "desc": "The Disney Springs show. Kids, Florida Resident & weekday savings available.",
+    "discount": "Save on select dates",
+    "url": "https://www.cirquedusoleil.com/drawn-to-life"
+  },
+  {
+    "id": "dcl-10down",
+    "cat": "cruises",
+    "merchant": "Undercover Tourist",
+    "partner": "Undercover Tourist",
+    "title": "Book a Disney Cruise for 10% Down",
+    "desc": "Lock in select Oct 2026–Mar 2027 sailings with a low deposit.",
+    "discount": "10% DOWN",
+    "url": "https://www.undercovertourist.com/cruises/disney-cruise-line/"
+  },
+  {
+    "id": "fl-resident",
+    "cat": "hotels",
+    "merchant": "Walt Disney World",
+    "title": "Florida Resident Room Offers",
+    "desc": "Exclusive discounted room rates for Florida residents on select dates.",
+    "discount": "FL RESIDENT RATES",
+    "url": "https://disneyworld.disney.go.com/special-offers/florida-resident-discounts/"
+  },
+  {
+    "id": "summer-2day",
+    "cat": "tickets",
+    "merchant": "Walt Disney World",
+    "title": "Summer 2-Day Ticket Deal",
+    "desc": "A rare limited 2-Day ticket, now open to everyone for select summer dates.",
+    "discount": "Special summer pricing",
+    "url": "https://disneyworld.disney.go.com/special-offers/"
+  },
+  {
+    "id": "memorymaker",
+    "cat": "tickets",
+    "merchant": "Undercover Tourist",
+    "partner": "Undercover Tourist",
+    "title": "Memory Maker (PhotoPass) Deal",
+    "desc": "Pre-purchase your unlimited photo package below the standard Disney price.",
+    "discount": "Below Disney price",
+    "url": "https://www.undercovertourist.com/hot-deals/"
+  },
+  {
+    "id": "passholder",
+    "cat": "merch",
+    "merchant": "Disney",
+    "title": "Annual Passholder Discounts",
+    "desc": "Extra savings on merchandise, dining and select rooms for Passholders.",
+    "discount": "PASSHOLDER PERKS",
+    "url": "https://disneyworld.disney.go.com/passes/"
+  },
+  {
+    "id": "cruise-resale",
+    "cat": "cruises",
+    "merchant": "MouseSavers",
+    "title": "Disney Cruise Discount Roundup",
+    "desc": "A trusted, frequently-updated list of every current Disney Cruise discount.",
+    "discount": "All current cruise deals",
+    "url": "https://www.mousesavers.com/disney-cruise-tips/disney-cruise-line-discounts-and-deals/"
+  },
+  {
+    "id": "dl-ca-resident",
+    "cat": "disneyland",
+    "hot": true,
+    "merchant": "Disneyland Resort",
+    "title": "California Resident 3-Day Park Hopper",
+    "desc": "Over 50% off! 3-Day Park Hopper for eligible CA residents (ZIP 90000–96199). Non-consecutive days OK.",
+    "before": 170,
+    "after": 83,
+    "unit": "/day",
+    "save": "50%+ OFF",
+    "url": "https://disneyland.disney.go.com/offers/"
+  },
+  {
+    "id": "dl-socal",
+    "cat": "disneyland",
+    "merchant": "Disneyland Resort",
+    "title": "SoCal Resident 3-Day Ticket",
+    "desc": "Southern California residents — 3-Day ticket starting around $75/day.",
+    "before": 150,
+    "after": 75,
+    "unit": "/day",
+    "save": "Resident savings",
+    "url": "https://disneyland.disney.go.com/offers/"
+  },
+  {
+    "id": "dl-kids-summer",
+    "cat": "disneyland",
+    "merchant": "Disneyland Resort",
+    "title": "Kids Visit for $50/Day This Summer",
+    "desc": "Ages 3–9 get a Park Hopper at $50/day, valid May 22–Sep 7, 2026 — any state.",
+    "discount": "Kids $50/day",
+    "url": "https://disneyland.disney.go.com/offers/"
+  },
+  {
+    "id": "dl-hotel",
+    "cat": "disneyland",
+    "merchant": "Disneyland Resort",
+    "title": "Up to 25% Off Disneyland Hotels",
+    "desc": "Save on select premium rooms, Sunday–Thursday nights, Jan 1–May 21, 2026.",
+    "discount": "Up to 25% OFF",
+    "url": "https://disneyland.disney.go.com/offers/"
+  },
+  {
+    "id": "gc-discount",
+    "cat": "giftcards",
+    "hot": true,
+    "merchant": "Target / Sam’s / Costco",
+    "title": "Discounted Disney Gift Cards",
+    "desc": "Target Circle Card 5% off, Sam’s/BJ’s ~4–5%, Costco $250 for $224.99 — spend like cash anywhere Disney.",
+    "before": 500,
+    "after": 475,
+    "save": "5–15% effective",
+    "url": "https://www.disneytouristblog.com/disney-gift-card-discount-tips/"
+  },
+  {
+    "id": "gc-costco",
+    "cat": "giftcards",
+    "merchant": "Costco",
+    "title": "Costco $250 Disney Gift Card → $224.99",
+    "desc": "Members buy a $250 Disney Gift Card for $224.99. Stack with park & hotel spending.",
+    "before": 250,
+    "after": 224.99,
+    "save": "10% OFF",
+    "url": "https://www.costco.com/"
+  },
+  {
+    "id": "visa-merch",
+    "cat": "perks",
+    "hot": true,
+    "merchant": "Disney Visa",
+    "title": "10% Off shopDisney & Park Merch",
+    "desc": "Disney Chase Visa cardholders save 10% on shopDisney and in-park purchases of $50+.",
+    "discount": "10% OFF",
+    "url": "https://disneyrewards.com/perks-and-benefits/"
+  },
+  {
+    "id": "visa-dining",
+    "cat": "perks",
+    "merchant": "Disney Visa",
+    "title": "Disney Visa Dining Discounts",
+    "desc": "Save at select Walt Disney World & Disneyland restaurants, plus free PhotoPass character photos.",
+    "discount": "Cardholder dining deals",
+    "url": "https://disneyrewards.com/perks-and-benefits/"
+  },
+  {
+    "id": "visa-inspire",
+    "cat": "perks",
+    "merchant": "Disney Inspire Visa",
+    "title": "$600 Bonus + $420 in Annual Perks",
+    "desc": "The new Disney Inspire Visa: welcome bonuses plus recurring annual Disney perks.",
+    "discount": "$600 + $420/yr",
+    "url": "https://disneyrewards.com/"
+  },
+  {
+    "id": "ap-dining-40",
+    "cat": "dining",
+    "hot": true,
+    "merchant": "Walt Disney World",
+    "title": "Passholder 40% Off Dining",
+    "desc": "V.I.PASSHOLDER Summer Days — up to 40% off dine-in, Mon–Thu, May 1–Jul 31, 2026.",
+    "discount": "Up to 40% OFF",
+    "url": "https://disneyworld.disney.go.com/passes/"
+  },
+  {
+    "id": "aulani",
+    "cat": "hotels",
+    "merchant": "Aulani, Disney Resort (Hawaii)",
+    "title": "Up to 35% Off Aulani Hawaii",
+    "desc": "Save up to 35% on 4+ night stays at Aulani & DVC Villas on select dates through Dec 2026.",
+    "discount": "Up to 35% OFF",
+    "url": "https://www.disneyaulani.com/rooms-offers/special-offers/"
+  },
+  {
+    "id": "dvc",
+    "cat": "hotels",
+    "merchant": "Disney Vacation Club",
+    "title": "Disney Vacation Club Savings",
+    "desc": "Stackable DVC offers, or rent points from owners to stay in DVC villas for much less.",
+    "discount": "Member & rental deals",
+    "url": "https://disneyvacationclub.disney.go.com/savings/"
+  },
+  {
+    "id": "disney-on-ice",
+    "cat": "shows",
+    "merchant": "Disney On Ice",
+    "title": "Disney On Ice — Discount Tickets",
+    "desc": "Up to $5 off select shows; students save up to 15% with a valid student ID.",
+    "discount": "Up to 15% OFF",
+    "url": "https://www.disneyonice.com/en-us/special-offers/"
+  },
+  {
+    "id": "getawaytoday",
+    "cat": "tickets",
+    "merchant": "Get Away Today",
+    "partner": "Get Away Today",
+    "title": "Get Away Today Vacation Packages",
+    "desc": "Authorized seller — discounted Disneyland & Disney World tickets + hotel packages with layaway.",
+    "discount": "Package savings",
+    "url": "https://www.getawaytoday.com/"
+  }
+]
