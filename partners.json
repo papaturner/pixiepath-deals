@@ -1,0 +1,49 @@
+{
+  "_README": "Affiliate config (Plan A). A deal is wrapped when its `partner` (preferred) or `merchant` string matches a key below AND that key is enabled:true AND no value still looks like a placeholder (YOUR_/REPLACE/XXXX). Otherwise the build ships the raw official link — so you can NEVER accidentally publish a broken or fake affiliate URL. Fill the real IDs from each program's dashboard, flip enabled:true, push to main, and every matching deal starts earning on the next build.",
+  "_types": "type:'query' appends tracking params to the destination (Undercover Tourist, Get Away Today, Amazon, Booking). type:'template' wraps the encoded destination in a network deep-link (CJ/Impact/Awin/Rakuten) — put the full click URL with {url} where the encoded destination goes.",
+  "_disney_reality": "Disney has NO consumer affiliate program. Links straight to disney.go.com / disneyworld / disneyland / disneycruise / aulani / disneyrewards / disneyplus pay $0 no matter what. You earn on a Disney trip ONLY through authorized resellers (Undercover Tourist, Get Away Today) and adjacent merchants (shopDisney via CJ, Amazon, hotels via Booking/Expedia). Those are the enabled-able keys below; Disney-direct deals are intentionally left unmapped.",
+
+  "Undercover Tourist": {
+    "enabled": false,
+    "type": "query",
+    "params": { "tap_a": "YOUR_UT_AFFILIATE_ID", "tap_s": "pixiepath" },
+    "_signup": "https://www.undercovertourist.com/affiliate-program/ — runs on TUNE/HasOffers. After approval, copy your tap_a (advertiser+affiliate id) and set tap_s to any sub-id you want for reporting (keep 'pixiepath'). Confirm the exact param names in your UT affiliate dashboard's sample link.",
+    "_earns_on": "ut-tickets, dcl-10down, memorymaker"
+  },
+  "Get Away Today": {
+    "enabled": false,
+    "type": "query",
+    "params": { "referrerid": "YOUR_GAT_REFERRER_ID" },
+    "_signup": "https://www.getawaytoday.com/referral or their affiliate/agent program. Your unique Referrer ID goes in referrerid. Get Away Today pays per booked package.",
+    "_earns_on": "getawaytoday"
+  },
+  "Amazon": {
+    "enabled": false,
+    "type": "query",
+    "params": { "tag": "YOUR_AMZN_TAG-20" },
+    "_signup": "https://affiliate-program.amazon.com — your Store/Tracking ID ends in -20. Use for pre-trip merch (ponchos, fans, pins, stroller fans). Add Amazon deals to curated.json with \"partner\":\"Amazon\".",
+    "_earns_on": "any deal with \"partner\":\"Amazon\" and an amazon.com url"
+  },
+
+  "shopDisney": {
+    "enabled": false,
+    "type": "template",
+    "template": "https://www.anrdoezrs.net/click-YOUR_CJ_PID-YOUR_CJ_ADID?url={url}",
+    "_signup": "https://www.cj.com (Commission Junction). Apply to the shopDisney (Disney Store) advertiser program. In CJ, grab a Deep Link for shopdisney.com: it gives you the click-PID-ADID path. Replace YOUR_CJ_PID / YOUR_CJ_ADID with the numbers from that link. The {url} token is auto-encoded by the build.",
+    "_earns_on": "shopdisney-sale"
+  },
+  "Booking.com": {
+    "enabled": false,
+    "type": "query",
+    "params": { "aid": "YOUR_BOOKING_AID" },
+    "_signup": "https://www.booking.com/affiliate-program/v2/index.html — for OFF-property 'Good Neighbor' hotels Disney can't discount. Your partner id goes in aid. Add such deals to curated.json with \"partner\":\"Booking.com\" and a booking.com url.",
+    "_earns_on": "future off-property hotel deals"
+  },
+  "Expedia": {
+    "enabled": false,
+    "type": "template",
+    "template": "https://YOUR_EXPEDIA_PARTNERIZE_CLICK/?url={url}",
+    "_signup": "https://www.expediagroup.com/partner-solutions/ (via Partnerize/CJ). Paste your full click-tracking URL with {url} as the destination slot. For off-property hotels + flights + car.",
+    "_earns_on": "future off-property travel deals"
+  }
+}
